@@ -1,13 +1,13 @@
 import { Box, ShoppingCart, Users, Plus } from "lucide-react";
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-} from "recharts";
+// import {
+//   LineChart,
+//   Line,
+//   XAxis,
+//   YAxis,
+//   CartesianGrid,
+//   Tooltip,
+//   ResponsiveContainer,
+// } from "recharts";
 
 const Main = () => {
   const stats = [
@@ -52,7 +52,7 @@ const Main = () => {
       </div>
 
       {/* Orders Chart */}
-      <div className="bg-white shadowunded-lg border border-slate-200 p-6">
+      {/* <div className="bg-white shadowunded-lg border border-slate-200 p-6">
         <h3 className="text-slate-800 font-semibold mb-4">Orders This Week</h3>
         <div className="h-64">
           <ResponsiveContainer width="100%" height="100%">
@@ -65,7 +65,7 @@ const Main = () => {
             </LineChart>
           </ResponsiveContainer>
         </div>
-      </div>
+      </div> */}
 
       {/* Recent Orders Table */}
       <div className="bg-white shadowunded-lg border border-slate-200 overflow-x-auto">
